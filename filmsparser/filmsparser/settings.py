@@ -11,7 +11,7 @@ BOT_NAME = "filmsparser"
 
 SPIDER_MODULES = ["filmsparser.spiders"]
 NEWSPIDER_MODULE = "filmsparser.spiders"
-
+CLOSESPIDER_PAGECOUNT = 1000
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "filmsparser (+http://www.yourdomain.com)"
